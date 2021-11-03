@@ -11,4 +11,20 @@ public class AutomataState {
     this.isAcceptState = isAcceptState;
   }
 
+  public String getIdentifier() {
+    return identifier;
+  }
+
+  public int getIndex() {
+    return index;
+  }
+
+  public boolean isAcceptState() {
+    return isAcceptState;
+  }
+
+  @Override
+  public String toString() {
+    return identifier;
+  }
 }

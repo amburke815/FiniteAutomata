@@ -6,7 +6,7 @@ public interface IFiniteAutomata {
 
   boolean accepts(String inputString);
 
-  List<AutomataState> states();
+  Set<AutomataState> states();
 
   Alphabet alphabet();
 
@@ -14,6 +14,6 @@ public interface IFiniteAutomata {
 
   AutomataState initialState();
 
-  List<AutomataState> acceptStates();
+  Set<AutomataState> acceptStates();
 
 }
